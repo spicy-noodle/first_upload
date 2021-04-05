@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         rollButton.setOnClickListener { rollDice()}
         rollDice()
     }
-
+//123123123
     private fun rollDice() {
         //create new Dice object with 6 sides 6 and roll it
         val dice = Dice(6)
